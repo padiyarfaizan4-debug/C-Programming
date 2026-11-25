@@ -1,0 +1,16 @@
+# Compiled binaries (extensionless output of: gcc "Experiment 1.c" -o "Experiment 1")
+/Experiment [0-9]*
+# ...but never the source files themselves
+!/Experiment*.c
+*.o
+*.exe
+*.out
+a.out
+
+# Runtime data files created by Experiment 11
+employees.dat
+
+# Editor / OS files
+.vscode/
+*.swp
+.DS_Store

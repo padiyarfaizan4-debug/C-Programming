@@ -1,0 +1,51 @@
+Experiment 1 (original recovered material)
+==========================================
+
+Recovered from: C_programming_extracted.zip, which was extracted from screenshots in proof.pdf.
+
+IMPORTANT - what was original and what was added
+------------------------------------------------
+In the recovered material only two files were complete:
+
+  Experiment 2.1.c  : lines 1-18 of 18   (complete)
+  Experiment 6.c    : lines 1-19 of 19   (complete)
+
+The other thirteen files were cut off at line 18 or 19 because the screenshots
+ended there. For example Experiment 11.c showed "lines 1-18 of 213".
+
+Every line that was visible in the original screenshots has been kept exactly as
+it was, in its original position. The missing remainder of each file was then
+written so the program is complete and compiles. The added code follows the
+intent already declared in the visible part (e.g. Experiment 11.c already
+declared addEmployee(), displayEmployees() and searchEmployee(), so those three
+functions were implemented).
+
+Please review the completed programs against your own work before submitting.
+
+Experiment 8.2 is not present at all - the screenshot that highlighted
+Experiment 8.2.c in the sidebar actually displayed the code of Experiment 8.1.c.
+
+Line counts of the original files as shown in the source screenshots
+--------------------------------------------------------------------
+  Experiment 1.c      : lines 1-18 of 26
+  Experiment 1.2.c    : lines 1-19 of 43
+  Experiment 2.1.c    : lines 1-18 of 18   (complete)
+  Experiment 2.2.c    : lines 1-18 of 31
+  Experiment 3.c      : lines 1-18 of 151
+  Experiment 4.c      : lines 1-18 of 37
+  Experiment 5.c      : lines 1-18 of 26
+  Experiment 6.c      : lines 1-19 of 19   (complete)
+  Experiment 7.1.c    : lines 1-18 of 32
+  Experiment 7.2.c    : lines 1-18 of 41
+  Experiment 8.1.c    : lines 1-18 of 21
+  Experiment 8.2.c    : not present
+  Experiment 9.c      : lines 1-18 of 48
+  Experiment 10.1.c   : lines 1-19 of 23
+  Experiment 10.2.c   : lines 1-18 of 46
+  Experiment 11.c     : lines 1-18 of 213
+
+Verification
+------------
+All 15 programs were compiled with:
+    gcc -Wall -Wextra -Wpedantic -std=c11
+with zero warnings, and each was run against sample input.
